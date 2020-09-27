@@ -1,3 +1,4 @@
+from math import *
 
-phrase = "Atlanta Academy"
-print(phrase.replace("Atlanta", "Houston"))
+my_num = -5
+print(sqrt(25))
