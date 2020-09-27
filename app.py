@@ -1,3 +1,3 @@
 
 phrase = "Atlanta Academy"
-print(phrase[2])
+print(phrase.replace("Atlanta", "Houston"))
