@@ -1,4 +1,4 @@
 
-phrase = "Atlanta Academy"
-print(phrase.replace("Atlanta", "Houston"))
-
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + "! You are " + age)
