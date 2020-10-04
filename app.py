@@ -1,4 +1,3 @@
-from math import *
-
-my_num = -5
-print(sqrt(25))
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+friends[1] = "Mike"
+print(friends[1])
