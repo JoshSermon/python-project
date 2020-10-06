@@ -60,7 +60,8 @@ def max_num(num1, num2, num3):
 
 print(max_num(300, 40, 5))
 
-'''
+------------------------------------------------------
+Calculator
 
 num1 = float(input("Enter first number: "))
 op = input("Enter operator: ")
@@ -76,7 +77,24 @@ elif op == "*":
    print(num1 * num2)
 else:
    print("Invalid Operator")
+'''
 
+monthConversions = {
+   "Jan": "January",
+   "Feb": "February",
+   "Mar": "March",
+   "Apr": "April",
+   "May": "May",
+   "Jun": "June",
+   "Jul": "July",
+   "Aug": "August",
+   "Sep": "September",
+   "Oct": "October",
+   "Nov": "November",
+   "Dec": "December",
+}
+
+print(monthConversions.get("Dec"))
 
 
 
