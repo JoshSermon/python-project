@@ -46,7 +46,6 @@ elif not(is_male) and is_tall:
    print("You are not a male but are tall")
 else:
    print("You are not a male and not tall")
-'''
 
 ------------------------------------------------------
 Comparisons
@@ -61,9 +60,22 @@ def max_num(num1, num2, num3):
 
 print(max_num(300, 40, 5))
 
+'''
 
+num1 = float(input("Enter first number: "))
+op = input("Enter operator: ")
+num2 = float(input("Enter second number: "))
 
-
+if op == "+":
+   print(num1 + num2)
+elif op == "-":
+   print(num1 - num2)
+elif op == "/":
+   print(num1 / num2)
+elif op == "*":
+   print(num1 * num2)
+else:
+   print("Invalid Operator")
 
 
 
