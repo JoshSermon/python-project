@@ -77,7 +77,9 @@ elif op == "*":
    print(num1 * num2)
 else:
    print("Invalid Operator")
-'''
+
+----------------------------------------
+Dictionaries
 
 monthConversions = {
    "Jan": "January",
@@ -96,10 +98,14 @@ monthConversions = {
 
 print(monthConversions.get("Dec"))
 
+'''
 
+i = 1
+while i <= 10:
+   print(i)
+   i += 1
 
-
-
+print("Done with loop")
 
 
 
