@@ -108,7 +108,9 @@ while i <= 10:
 
 print("Done with loop")
 
-'''
+
+----------------------------------------------
+Guessing Game (Variables, While Loops Booleans)
 
 secret_word = "ball"
 guess = ""
@@ -128,3 +130,62 @@ if out_of_guesses:
 else:
    print("You win!")
 
+---------------------------------------------
+Exponent Function
+
+def raise_to_power(base_num, pow_num):
+   result = 1
+   for index in range(pow_num):
+      result = result * base_num
+   return result
+
+print(raise_to_power(3, 4))
+
+number_grid = [
+   [1, 2, 3],
+   [4, 5, 6],
+   [7, 8, 9],
+   [0]
+]
+
+for row in number_grid:
+   for col in row:
+      print(col)
+
+------------------------------------
+Building A Translator
+
+def translate(phrase):
+   translation = ""
+   for letter in phrase:
+      if letter.lower() in "aeiou":
+         if letter.isupper():
+            translation = translation + "G"
+      else:
+            translation = translation + "g"
+
+   else:
+      translation = translation + letter
+return translation
+
+print(translate(input("Enter a phrase: ")))
+
+-----------------------------------------
+Comments
+
+# This prints out a string
+
+print("Comments are fun")
+
+'''
+
+try:
+      answer: 10 / 0
+      number = int(input("Enter a number: "))
+      print(number)
+except ZeroDivisionError as err:
+   print(err)
+except ValueError:
+   print("invalid input")
+
+# Stop video at 3:12.48
