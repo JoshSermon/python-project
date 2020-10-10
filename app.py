@@ -177,7 +177,8 @@ Comments
 
 print("Comments are fun")
 
-'''
+------------------------------------------
+Try and except
 
 try:
       answer: 10 / 0
@@ -188,4 +189,44 @@ except ZeroDivisionError as err:
 except ValueError:
    print("invalid input")
 
-# Stop video at 3:12.48
+------------------------------------------
+Reading Files
+
+employee_file = open("employees.txt", "r")
+for employee in employee_file.readlines():
+    print(employee)
+employee_file.close()
+
+--------------------------------------------
+Writing To Files
+
+employee_file = open("employees.txt", "a")
+
+employee_file.write("\nKelly - Customer Service")
+
+employee_file.close()
+
+----------------------------------------------
+Modules & Pip
+
+import useful_tools
+
+print(useful_tools.roll_dice(10))
+
+
+------------------------------------------------
+Classes and Object
+
+from Student import Student
+
+student1 = Student("Jim", "Business", 3.2, False)
+student2 = Student("Pam", "Art", 2.7, True)
+print(student1.gpa)
+
+'''
+
+def on_honor_roll(self):
+    if self.gpa >= 3.5:
+        return True
+    else:
+        return False
